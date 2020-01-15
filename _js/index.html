@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	
+
+	
+
+
+	<script type="text/javascript">
+
+		var nP1 = parseFloat(prompt('n1'))
+		var nP2 = parseFloat(prompt('n2'))
+		var media = parseFloat((n1+n2)/2)
+		var exame;
+
+		if(media >= 7.0){
+				window.alert('Parabens Aprovado media ' + media)
+		}
+		else if(media < 7.0){
+			window.alert('voce ficou em exame com a media '+ media)
+			exame = parseFloat(prompt('exame'))
+		}
+		
+		if(exame >= (10.0 - (media/2))){
+			window.alert('aprovado pelo exame')
+		}
+		else{
+			window.alert('aluno REPROVADO')
+		}
+
+
+
+
+	</script>
+</body>
+</html>
